@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import BlogPosts from "../components/blog/BlogPosts"
+---
+
+<Layout title="Blog">
+    <div class="w-screen flex justify-center">
+        <div class="w-5/6 flex justify-center gap-10 items-center flex-wrap my-10">
+            <BlogPosts client:only="react"/>
+        </div>
+    </div>
+</Layout>

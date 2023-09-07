@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CardDisplay from "../components/servicos/CardDisplay"
+---
+
+<Layout title="Serviço">
+    <div class="flex justify-center items-center flex-col">
+        <h3 class="font-barlow text-2xl font-extrabold p-10">SERVIÇOS</h3>
+        <CardDisplay client:only="react"/>
+    </div>
+</Layout>
