@@ -1,10 +1,10 @@
+import React from "react";
 import { useState } from "react";
 import { useMediaQuery } from "usehooks-ts";
 import { AiFillLinkedin, AiFillFacebook, AiFillInstagram, AiOutlineWhatsApp } from "react-icons/ai"
 import { navItens } from "../helpers/consts";
 import { VscThreeBars} from "react-icons/vsc"
 import { motion } from "framer-motion";
-import React from "react";
 
 export default function Nav() {
   const [toggled, setToggled] = useState(false);
