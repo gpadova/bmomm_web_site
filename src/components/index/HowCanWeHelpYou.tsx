@@ -2,6 +2,7 @@ import type { ReactElement } from "react";
 import AbillityCard from "./HabilityCard";
 import { FaMicrophone, FaPeopleGroup } from "react-icons/fa6";
 import { AiFillVideoCamera, AiOutlineTrophy } from "react-icons/ai";
+import React from "react";
 
 export interface IconProps {
   size: number;

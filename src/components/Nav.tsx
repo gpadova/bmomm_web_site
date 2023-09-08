@@ -4,6 +4,7 @@ import { AiFillLinkedin, AiFillFacebook, AiFillInstagram, AiOutlineWhatsApp } fr
 import { navItens } from "../helpers/consts";
 import { VscThreeBars} from "react-icons/vsc"
 import { motion } from "framer-motion";
+import React from "react";
 
 export default function Nav() {
   const [toggled, setToggled] = useState(false);
