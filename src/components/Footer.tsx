@@ -4,11 +4,11 @@ import { MdPlace } from "react-icons/md";
 import {
   AiFillPhone,
   AiFillMail,
-  AiFillFacebook,
   AiFillInstagram,
   AiFillLinkedin,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
+import { FaFacebook } from "react-icons/fa6"
 
 function Footer() {
   const matched = useMediaQuery("(min-width:780px)");
@@ -35,7 +35,7 @@ function Footer() {
           <div className="w-full flex justify-start gap-3 items-center text-white">
             <AiFillLinkedin size={size2} />
             <AiOutlineWhatsApp size={size2} />
-            <AiFillFacebook size={size2} />
+            <FaFacebook size={size2} />
             <AiFillInstagram size={size2} />
           </div>
         )}

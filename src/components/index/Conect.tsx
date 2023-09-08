@@ -1,11 +1,7 @@
-import React from "react";
-import {
-  AiFillLinkedin,
-  AiFillFacebook,
-  AiFillInstagram,
-  AiOutlineWhatsApp,
-} from "react-icons/ai";
+
 import { useMediaQuery } from "usehooks-ts";
+import { FaFacebook } from "react-icons/fa6"
+import { AiFillLinkedin, AiFillInstagram, AiOutlineWhatsApp } from "react-icons/ai"
 
 function Conect() {
   const matched = useMediaQuery("(min-width: 778px)");
@@ -25,7 +21,7 @@ function Conect() {
             <AiOutlineWhatsApp size={size} />
           </a>
           <a href="#" className="icon-link">
-            <AiFillFacebook size={size} />
+            <FaFacebook size={size} />
           </a>
           <a href="#" className="icon-link">
             <AiFillInstagram size={size} />

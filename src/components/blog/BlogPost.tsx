@@ -1,5 +1,4 @@
 import { styled } from "styled-components";
-import lightBulb from "/prettyImages/Rectangle 1806.png";
 import { BsCalendar3 } from "react-icons/bs";
 
 function BlogPost() {

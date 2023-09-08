@@ -1,14 +1,14 @@
-import React from "react";
-import { useState } from "react";
+import  { useState } from "react";
 import { useMediaQuery } from "usehooks-ts";
-import { AiFillLinkedin, AiFillFacebook, AiFillInstagram, AiOutlineWhatsApp } from "react-icons/ai"
+import { AiFillLinkedin, AiFillInstagram, AiOutlineWhatsApp } from "react-icons/ai"
+import { FaFacebook } from "react-icons/fa6"
 import { navItens } from "../helpers/consts";
 import { VscThreeBars} from "react-icons/vsc"
 import { motion } from "framer-motion";
 
 export default function Nav() {
   const [toggled, setToggled] = useState(false);
-  const size = 40;
+  const size = 40
   const matched = useMediaQuery("(min-width: 776px)");
 
   return (
@@ -37,10 +37,10 @@ export default function Nav() {
         </div>
         {matched && (
           <>
-            <div className="flex justify-evenly gap-3 text-white ">
+            <div className="flex justify-evenly gap-3 text-white  cursor-pointer">
               <AiFillLinkedin size={size}/>
               <AiOutlineWhatsApp size={size}/>
-              <AiFillFacebook size={size}/>
+              <FaFacebook size={size}/>
               <AiFillInstagram size={size}/>
             </div>
           </>
@@ -73,3 +73,5 @@ export default function Nav() {
     </>
   );
 }
+
+
