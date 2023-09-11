@@ -13,17 +13,13 @@ export const navItens: INavItens[] = [
         path: "/sobre"
     },
     {
-        name: "SERVIÇOS",
-        path: "/servicos"
-    },
-    {
         name: "CLIENTES",
         path: "/clientes"
     },
-    {
-        name: "BLOG",
-        path: "/blog"
-    },
+    // {
+    //     name: "BLOG",
+    //     path: "/blog"
+    // },
     {
         name: "CONTATO",
         path: "/contato"

@@ -13,7 +13,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="flex sm:justify-evenly justify-evenly items-center w-full p-0 sm:p-6 bg-purple h-auto">
+      <nav className="flex sm:justify-evenly justify-evenly items-center w-full p-0 sm:p-6 bg-lightBlue h-auto">
         <div className="w-1/2 sm:w-1/6 cursor-pointer  max-h-20">
           <a href="/">
             <img
@@ -55,7 +55,7 @@ export default function Nav() {
           animate={{opacity: 1, x: 0}}
           initial={{opacity: 0, x: 25}}
           transition={{duration: 0.75}}
-          className="fixed bg-purple left-0 bottom-0 w-full h-screen flex justify-center items-center z-10">
+          className="fixed bg-lightBlue left-0 bottom-0 w-full h-screen flex justify-center items-center z-10">
             <div className="flex justify-center items-center flex-col gap-7">
               {navItens.map((element, index) => (
                 <a

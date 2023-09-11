@@ -4,7 +4,7 @@ function AboutUs() {
   const matched = useMediaQuery("(min-width: 780px)");
   return (
     <div className="w-[100vw]  flex justify-center items-center flex-col my-10">
-      <div className="w-5/6 border-y-[2px] flex justify-center py-10 items-center gap-10">
+      <div className="w-5/6 border-y-[2px] border-slate-900 flex justify-center py-10 items-center gap-10">
         <div className="max-w-md flex justify-center flex-col items-center">
           <h3 className="text-[32px] tracking-tight font-[800]">SOBRE NÓS</h3>
           <p className="font-[400] leading-8 tracking-wide pt-6">

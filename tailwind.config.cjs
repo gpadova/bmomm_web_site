@@ -12,7 +12,9 @@ module.exports = {
 				gray: "#D3D4DC",
 				partnersBackground: "#404040",
 				gold: "#F6AF03",
-				navyBlue: "#0540F2"
+				navyBlue: "#0540F2",
+				lightBlue: "#3289C9",
+				heavyBlue: "#255f89"
 			},
 			fontFamily: {
 				barlow: ['barlow', 'sans-serif'],

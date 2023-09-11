@@ -29,7 +29,7 @@ function Partners() {
     <LazyMotion features={domAnimation}>
       <div className="bg-white w-full flex justify-center items-center">
         <div className=" flex justify-center items-center mt-5 flex-col pb-10">
-          <h2 className="text-black text-3xl font-barlow font-extrabold pb-5 underline underline-offset-4">
+          <h2 className="text-slate-900 text-3xl font-barlow font-extrabold pb-5 underline underline-offset-4">
             Parceiros
           </h2>
           <div

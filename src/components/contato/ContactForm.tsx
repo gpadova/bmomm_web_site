@@ -1,13 +1,13 @@
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { FaLocationPin } from "react-icons/fa6";
+import { FaFacebook, FaLocationPin } from "react-icons/fa6";
 import { AiFillLinkedin, AiOutlineWhatsApp, AiFillInstagram} from "react-icons/ai";
 
 function ContactForm() {
   return (
     <div className="w-full flex justify-center">
       <div className="w-5/6 sm:flex mb-20">
-        <div className="sm:w-1/2 bg-navyBlue flex flex-col items-stretch justify-center rounded-md text-white p-10 font-barlow">
+        <div className="sm:w-1/2 bg-heavyBlue flex flex-col items-stretch justify-center rounded-md text-white p-10 font-barlow">
           <h3 className="text-2xl mb-10">Informações de contato</h3>
           <div className="flex gap-10">
             <BsTelephoneFill />
@@ -23,7 +23,7 @@ function ContactForm() {
           </div>
           <div className="flex text-4xl mt-7 gap-4">
             <AiFillLinkedin />
-            {/* <FaFacebook color="#F6AF03"/> */}
+            <FaFacebook color="#F6AF03"/>
             <AiOutlineWhatsApp />
             <AiFillInstagram color="#F6AF03"/>
           </div>

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { FaPeopleGroup } from "react-icons/fa6" 
 
 function Card() {
   return (

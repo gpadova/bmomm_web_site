@@ -15,7 +15,7 @@ function Footer() {
   const size = 20;
   const size2 = 20;
   return (
-    <footer className="w-screen h-58 bg-purple flex justify-center flex-col items-center">
+    <footer className="w-screen h-58 bg-lightBlue flex justify-center flex-col items-center">
       <div className="w-5/6 h-100 border-y-[0.1px] mb-5 mt-10 p-5 border-white flex justify-between items-center flex-col sm:flex-row">
         <div className="w-full sm:w-1/2 h-100 text-white">
           <div className="flex justify-start gap-10 pb-2">

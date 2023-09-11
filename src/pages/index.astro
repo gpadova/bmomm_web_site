@@ -8,8 +8,11 @@ import Partners from "../components/index/Partners"
 ---
 
 <Layout title="Home">
+	<div class="w-full flex justify-center bg-[#3289C9]">
+		<img src="/BMomm_banner.png" alt="Banner de fundo da BMomm" class="w-full">
+	</div>
 	<HowCanWeHelpYou client:only/>
 	<AboutUs client:only/>
 	<Partners client:only/>
-	<Conect client:only/>
+	<Conect client:only="react"/>
 </Layout>

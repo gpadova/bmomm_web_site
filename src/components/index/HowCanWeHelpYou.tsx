@@ -19,6 +19,7 @@ function HowCanWeHelpYou() {
       title: "AÇÕES DE RELACIONAMENTO",
       text: [
         "Pensamos em ações que fortaleçam a reputação da sua empresa com conteúdos próprios e relevantes, consolidando a sua marca nas redes sociais com ações de relacionamento.",
+        "O Marketing de Influência se baseia em pessoas reais, as quais o seu público se identifica. Essas personalidades compartilham experiências nas redes sociais e influenciam outras pessoas."
       ],
       icon: <AiOutlineTrophy size={100} />,
       anchor: "/servico/relacionamento"
@@ -50,7 +51,7 @@ function HowCanWeHelpYou() {
   ];
 
   return (
-    <main className="w-full flex justify-center items-center  flex-col mb-10 bg-slate-900">
+    <main className="w-full flex justify-center items-center  flex-col mb-10 bg-lightBlue">
       <div className="w-5/6  text-[40px] sm:text-[40px]  font-bold m-10 font-barlow text-white tracking-tight ">
         <h2>COMO PODEMOS TE AJUDAR</h2>
       </div>
@@ -59,13 +60,13 @@ function HowCanWeHelpYou() {
           <AbillityCard key={index} icon={icon} title={title} text={text} anchor={anchor}/>
         ))}
       </div>
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <a href="/servicos">
-          <button className="font-barlow mb-7 font-semibold text-lg py-3 px-6 rounded-lg bg-purple text-white hover:bg-purple-dark transition duration-300 ease-in-out">
+          <button className="font-barlow mb-7 font-semibold text-lg py-3 px-6 rounded-3xl bg-slate-900 text-white hover:bg-purple-dark transition duration-300 ease-in-out">
             CONHEÇA NOSSOS SERVIÇOS
           </button>
         </a>
-      </div>
+      </div> */}
     </main>
   );
 }
