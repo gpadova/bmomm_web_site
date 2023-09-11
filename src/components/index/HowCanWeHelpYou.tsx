@@ -51,7 +51,7 @@ function HowCanWeHelpYou() {
   ];
 
   return (
-    <main className="w-full flex justify-center items-center  flex-col mb-10 bg-lightBlue">
+    <main className="w-full flex justify-center items-center pt-5  flex-col mb-10 bg-lightBlue">
       <div className="w-5/6  text-[40px] sm:text-[40px]  font-bold m-10 font-barlow text-white tracking-tight ">
         <h2>COMO PODEMOS TE AJUDAR</h2>
       </div>
