@@ -18,7 +18,7 @@ export default function Nav() {
           <a href="/">
             <img
               src="/logosBMomm/logo-Bea-aplicacoes-01.png"
-              className="object-scale-down py-1 max-h-20"
+              className="object-scale-down py-1 max-h-24"
               alt="Logo da empresa BMomm"
             />
           </a>
@@ -28,7 +28,7 @@ export default function Nav() {
             navItens.map((element, index) => (
               <a
                 key={index}
-                className="hover:underline hover:opacity-60 underline-offset-8 antialiased text-md"
+                className="hover:underline hover:opacity-60 underline-offset-8 antialiased text-lg"
                 href={element.path}
               >
                 {element.name}
@@ -60,7 +60,7 @@ export default function Nav() {
               {navItens.map((element, index) => (
                 <a
                   key={index}
-                  className="hover:underline underline-offset-8 antialiased text-lg text-white"
+                  className="hover:underline underline-offset-8 antialiased  text-white"
                   href={element.path}
                 >
                   {element.name}
