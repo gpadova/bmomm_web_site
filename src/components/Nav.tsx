@@ -18,7 +18,7 @@ export default function Nav() {
           <a href="/">
             <img
               src="/logosBMomm/logo-Bea-aplicacoes-01.png"
-              className="object-scale-down py-1 max-h-24"
+              className="object-scale-down py-1 max-h-20"
               alt="Logo da empresa BMomm"
             />
           </a>
