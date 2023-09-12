@@ -4,9 +4,12 @@ import BlogPosts from "../components/blog/BlogPosts"
 ---
 
 <Layout title="Blog">
-    <div class="w-screen flex justify-center">
-        <div class="w-5/6 flex justify-center gap-10 items-center flex-wrap my-10">
-            <BlogPosts client:only="react"/>
+    <div class="w-screen flex justify-center items-center flex-col">
+        <div class="w-full flex py-10 justify-center ">
+            <h1 class="font-barlow text-4xl font-bold">BLOG</h1>
+        </div>
+        <div class="w-11/12 flex justify-center gap-10 items-center flex-wrap my-10">
+            <BlogPosts client:load/>
         </div>
     </div>
 </Layout>

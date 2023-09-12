@@ -16,10 +16,15 @@ export const navItens: INavItens[] = [
         name: "CLIENTES",
         path: "/clientes"
     },
-    // {
-    //     name: "BLOG",
-    //     path: "/blog"
-    // },
+    {
+        name: "SERVIÇOS",
+        path: "/servicos"
+    },
+
+    {
+        name: "BLOG",
+        path: "/blog"
+    },
     {
         name: "CONTATO",
         path: "/contato"

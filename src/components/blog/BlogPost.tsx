@@ -1,10 +1,10 @@
-import { styled } from "styled-components";
+
 import { BsCalendar3 } from "react-icons/bs";
 
 function BlogPost() {
   return (
     <>
-      <BlogPostBox className="mb-5">
+      <div className="mb-5 w-96">
         <img src="/prettyImages/Rectangle 1806.png" alt="Imagem do Post" />
         <div className="flex gap-10 my-5">
           <BsCalendar3 size={25}/>
@@ -15,13 +15,10 @@ function BlogPost() {
           Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna.
           Aliquam erat volutpat. Intege...
         </p>
-      </BlogPostBox>
+      </div>
     </>
   );
 }
 
-const BlogPostBox = styled.div`
-  width: min(90%, 500px);
-`;
 
 export default BlogPost;
