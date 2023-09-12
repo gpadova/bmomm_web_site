@@ -60,13 +60,13 @@ function HowCanWeHelpYou() {
           <AbillityCard key={index} icon={icon} title={title} text={text} anchor={anchor}/>
         ))}
       </div>
-      {/* <div className="flex justify-center">
+      <div className="flex justify-center">
         <a href="/servicos">
           <button className="font-barlow mb-7 font-semibold text-lg py-3 px-6 rounded-3xl bg-slate-900 text-white hover:bg-purple-dark transition duration-300 ease-in-out">
             CONHEÇA NOSSOS SERVIÇOS
           </button>
         </a>
-      </div> */}
+      </div>
     </main>
   );
 }
