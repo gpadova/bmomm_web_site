@@ -13,7 +13,7 @@ function AbilityCard({ title, text, icon, anchor }: AbilityCardProps) {
       initial={{ opacity: 0, x: 60 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
-      className="bg-white  border-[8px] border-heavyBlue rounded-xl shadow-3xl max-w-[400px] flex flex-col gap-3 justify-between items-center p-10"
+      className="bg-white  border-[4px] border-heavyBlue rounded-xl shadow-3xl max-w-[400px] flex flex-col gap-3 justify-between items-center p-10"
     >
       <div className="w-full flex flex-col items-center justify-center mb-5">
         <div className="bg-slate-900 rounded-full p-5 mb-5 text-white">
