@@ -22,10 +22,10 @@ function ContactForm() {
             <p className=" text-lg">Florianópolis - Santa Catarina | Brasil</p>
           </div>
           <div className="flex text-4xl mt-7 gap-4">
-            <AiFillLinkedin />
-            <FaFacebook color="#F6AF03"/>
             <AiOutlineWhatsApp />
             <AiFillInstagram color="#F6AF03"/>
+            <FaFacebook />
+            <AiFillLinkedin color="#F6AF03"/>
           </div>
         </div>
         <div className="sm:w-1/2 flex flex-col items-center justify-center">

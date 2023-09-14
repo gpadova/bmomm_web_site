@@ -18,8 +18,7 @@ function HowCanWeHelpYou() {
     {
       title: "AÇÕES DE RELACIONAMENTO",
       text: [
-        "Pensamos em ações que fortaleçam a reputação da sua empresa com conteúdos próprios e relevantes, consolidando a sua marca nas redes sociais com ações de relacionamento.",
-        "O Marketing de Influência se baseia em pessoas reais, as quais o seu público se identifica. Essas personalidades compartilham experiências nas redes sociais e influenciam outras pessoas."
+        "Conectando marcas e pessoas reais com propósito",
       ],
       icon: <AiOutlineTrophy size={100} />,
       anchor: "/servico/relacionamento"
@@ -27,7 +26,7 @@ function HowCanWeHelpYou() {
     {
       title: "ASSESSORIA DE IMPRENSA",
       text: [
-        "A BMomm Comunicação será o elo entre a sua marca e a imprensa, criando um relacionamento de confiança. A partir de um planejamento de acordo com a necessidade do cliente, traçamos estratégias que aprimoram a visibilidade na mídia, bem como ajudam na manutenção da reputação, evitando crises de imagem.",
+        "Conquistando espaço, credibilidade e visibilidade na imprensa",
       ],
       icon: <FaMicrophone size={100} />,
       anchor: "/servico/assesoria"
@@ -35,7 +34,7 @@ function HowCanWeHelpYou() {
     {
       title: "MARKETING DIGITAL",
       text: [
-        "Com um mundo cada vez mais conectado, estar no mundo online e nas redes sociais é imprescindível. E não estamos falando apenas de presença, mas sim de conteúdos marcantes e relevantes capazes de elevar uma marca e garantir autoridade na web.",
+        "Conectando a sua marca com seu público-alvo no mundo digital",
       ],
       icon: <FaPeopleGroup size={100} />,
       anchor: "/servico/digital"
@@ -43,7 +42,7 @@ function HowCanWeHelpYou() {
     {
       title: "PRODUÇÃO DE CONTEÚDO",
       text: [
-        "Produzimos materiais em texto, áudio e vídeo. Criamos conteúdos exclusivos e relevantes, e adaptamos para todas as plataformas. Traçamos estratégias de comunicação de acordo com a necessidade do cliente, do nicho de atuação e do perfil do público consumidor.",
+        "Criando conteúdos exclusivos e ricos em informação.",
       ],
       icon: <AiFillVideoCamera size={100} />,
       anchor: "/servico/conteudo"
@@ -51,8 +50,8 @@ function HowCanWeHelpYou() {
   ];
 
   return (
-    <main className="w-full flex justify-center items-center pt-5  flex-col mb-10 bg-lightBlue">
-      <div className="w-5/6  text-[40px] sm:text-[40px]  font-bold m-10 font-barlow text-white tracking-tight ">
+    <main className="w-full flex justify-center items-center pt-5  flex-col mb-10 bg-white">
+      <div className="w-11/12  text-[40px] sm:text-[40px]  font-bold m-10 font-barlow text-black tracking-tight ">
         <h2>COMO PODEMOS TE AJUDAR</h2>
       </div>
       <div className="flex justify-center flex-wrap gap-10 p-10">

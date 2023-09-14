@@ -8,7 +8,7 @@ import {
   AiFillLinkedin,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
-import { FaFacebook } from "react-icons/fa6"
+import { FaFacebook } from "react-icons/fa6";
 
 function Footer() {
   const matched = useMediaQuery("(min-width:780px)");
@@ -26,10 +26,12 @@ function Footer() {
             <AiFillPhone size={size} />
             <p>(48) 98806-6446</p>
           </div>
-          <div className="flex justify-start gap-10 pb-2">
-            <AiFillMail size={size} />
-            <p>contato@bmomm.com.br</p>
-          </div>
+          <a href="mailto: beatriz@bmomm.com.br">
+            <div className="flex justify-start gap-10 pb-2">
+              <AiFillMail size={size} />
+              <p>contato@bmomm.com.br</p>
+            </div>
+          </a>
         </div>
         {!matched && (
           <div className="w-full flex justify-start gap-3 items-center text-white">

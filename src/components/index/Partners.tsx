@@ -23,14 +23,14 @@ function Partners() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [currentLogoIndex]); // Include currentLogoIndex as a dependency
+  }, [currentLogoIndex]); 
 
   return (
     <LazyMotion features={domAnimation}>
       <div className="bg-white w-full flex justify-center items-center">
         <div className=" flex justify-center items-center mt-5 flex-col pb-10">
-          <h2 className="text-slate-900 text-3xl font-barlow font-extrabold pb-5 underline underline-offset-4">
-            Parceiros
+          <h2 className="text-slate-900 text-3xl font-barlow font-extrabold pb-5">
+            CLIENTES
           </h2>
           <div
             className="flex flex-wrap justify-start gap-10 w-30 p-4 hover:cursor-pointer"
@@ -55,7 +55,15 @@ function Partners() {
                 />
               ))}
             </div>
+            
           </div>
+          <div className="flex justify-center">
+        <a href="/clientes">
+          <button className="font-barlow my-10 font-semibold text-lg py-3 px-6 rounded-3xl bg-purple text-white hover:bg-purple-dark transition duration-300 ease-in-out">
+            CONHEÇA NOSSOS CLIENTES
+          </button>
+        </a>
+      </div>
         </div>
       </div>
       <style>

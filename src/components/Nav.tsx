@@ -28,7 +28,7 @@ export default function Nav() {
             navItens.map((element, index) => (
               <a
                 key={index}
-                className="hover:underline hover:opacity-60 underline-offset-8 antialiased text-lg"
+                className="hover:underline hover:opacity-60 underline-offset-8 antialiased text-md"
                 href={element.path}
               >
                 {element.name}
@@ -38,10 +38,10 @@ export default function Nav() {
         {matched && (
           <>
             <div className="flex justify-evenly gap-3 text-white  cursor-pointer">
-              <AiFillLinkedin size={size}/>
               <AiOutlineWhatsApp size={size}/>
-              <FaFacebook size={size}/>
               <AiFillInstagram size={size}/>
+              <FaFacebook size={size}/>
+              <AiFillLinkedin size={size}/>
             </div>
           </>
         )}
