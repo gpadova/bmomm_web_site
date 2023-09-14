@@ -57,6 +57,16 @@ function ContactForm() {
               </label>
               <textarea className="border-b-[1px] text-zinc-700" />
             </div>
+            <div className="flex gap-2 justify-center mb-8 w-[300px] ">
+              <input type="checkbox" className="border-b-[1px] text-zinc-700" />
+              <label htmlFor="" className="mb-1 font-barlow">
+              Estou de acordo com a  {" "}
+              <span className="underline">
+
+               Política de Privacidade.
+              </span>
+              </label>
+            </div>
             <button className="bg-slate-800 font-barlow text-white px-6 py-3 rounded-md">Enviar Mensagem</button>
           </form>
         </div>
