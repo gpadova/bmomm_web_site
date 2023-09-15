@@ -3,8 +3,8 @@ import { useMediaQuery } from "usehooks-ts";
 function AboutUs() {
   const matched = useMediaQuery("(min-width: 780px)");
   return (
-    <div className="w-[100vw]  flex justify-center items-center flex-col my-10">
-      <div className="w-5/6 border-y-[2px] border-slate-900 flex justify-center py-10 items-center gap-10">
+    <div className="w-[100vw]  flex justify-center items-center flex-col my-10 border-y-[2px]">
+      <div className="w-5/6  border-slate-900 flex justify-center pt-10 items-center gap-10">
         <div className="max-w-md flex justify-center flex-col items-center">
           <h3 className="text-[32px] tracking-tight font-[800]">SOBRE NÓS</h3>
           <p className="font-[400] leading-8 tracking-wide pt-6">
@@ -27,6 +27,13 @@ function AboutUs() {
           </div>
         )}
       </div>
+      <div className="flex justify-center">
+            <a href="/sobre">
+              <button className="font-barlow my-10 font-semibold text-lg py-3 px-6 rounded-3xl bg-slate-900 text-white hover:bg-purple-dark transition duration-300 ease-in-out">
+              SAIBA MAIS
+              </button>
+            </a>
+          </div>
     </div>
   );
 }

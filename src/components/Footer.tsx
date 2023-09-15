@@ -35,10 +35,29 @@ function Footer() {
         </div>
         {!matched && (
           <div className="w-full flex justify-start gap-3 items-center text-white">
-            <AiFillLinkedin size={size2} />
-            <AiOutlineWhatsApp size={size2} />
-            <FaFacebook size={size2} />
-            <AiFillInstagram size={size2} />
+            <div className="flex justify-evenly gap-3 text-white  cursor-pointer">
+              <a target="_blank" href="">
+                <AiOutlineWhatsApp size={size2} />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/bmommcomunicacao/"
+              >
+                <AiFillInstagram size={size2} />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/bmommcomunicacao/"
+              >
+                <FaFacebook size={size2} />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/bmomm-comunica%C3%A7%C3%A3o/"
+              >
+                <AiFillLinkedin size={size2} />
+              </a>
+            </div>
           </div>
         )}
         {matched && (

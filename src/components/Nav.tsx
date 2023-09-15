@@ -38,10 +38,18 @@ export default function Nav() {
         {matched && (
           <>
             <div className="flex justify-evenly gap-3 text-white  cursor-pointer">
-              <AiOutlineWhatsApp size={size}/>
-              <AiFillInstagram size={size}/>
-              <FaFacebook size={size}/>
-              <AiFillLinkedin size={size}/>
+              <a target="_blank" href="">
+                <AiOutlineWhatsApp size={size}/>
+                </a>
+              <a target="_blank" href="https://www.instagram.com/bmommcomunicacao/">
+                <AiFillInstagram size={size}/>
+                </a>
+              <a target="_blank" href="https://www.facebook.com/bmommcomunicacao/">
+                <FaFacebook size={size}/>
+                </a>
+              <a target="_blank" href="https://www.linkedin.com/company/bmomm-comunica%C3%A7%C3%A3o/">
+                <AiFillLinkedin size={size}/>
+                </a>
             </div>
           </>
         )}

@@ -16,14 +16,6 @@ function HowCanWeHelpYou() {
   }
   const aboutUsConsts: IAboutUsConsts[] = [
     {
-      title: "AÇÕES DE RELACIONAMENTO",
-      text: [
-        "Conectando marcas e pessoas reais com propósito",
-      ],
-      icon: <AiOutlineTrophy size={100} />,
-      anchor: "/servico/relacionamento"
-    },
-    {
       title: "ASSESSORIA DE IMPRENSA",
       text: [
         "Conquistando espaço, credibilidade e visibilidade na imprensa",
@@ -40,6 +32,14 @@ function HowCanWeHelpYou() {
       anchor: "/servico/digital"
     },
     {
+      title: "AÇÕES DE RELACIONAMENTO",
+      text: [
+        "Conectando marcas e pessoas reais com propósito",
+      ],
+      icon: <AiOutlineTrophy size={100} />,
+      anchor: "/servico/relacionamento"
+    },
+    {
       title: "PRODUÇÃO DE CONTEÚDO",
       text: [
         "Criando conteúdos exclusivos e ricos em informação.",
@@ -51,7 +51,7 @@ function HowCanWeHelpYou() {
 
   return (
     <main className="w-full flex justify-center items-center pt-5  flex-col mb-10 bg-white">
-      <div className="w-11/12  text-[40px] sm:text-[40px]  font-bold m-10 font-barlow text-black tracking-tight ">
+      <div className="w-11/ flex justify-center  text-2xl sm:text-3xl  font-bold m-10 font-barlow text-black tracking-tight ">
         <h2>COMO PODEMOS TE AJUDAR</h2>
       </div>
       <div className="flex justify-center flex-wrap gap-10 p-10">

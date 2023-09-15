@@ -1,4 +1,9 @@
-import { LazyMotion, domAnimation, AnimatePresence, useCycle } from "framer-motion";
+import {
+  LazyMotion,
+  domAnimation,
+  AnimatePresence,
+  useCycle,
+} from "framer-motion";
 import { useEffect, useRef } from "react";
 
 function Partners() {
@@ -19,11 +24,11 @@ function Partners() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-        cycleLogos(); 
+      cycleLogos();
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [currentLogoIndex]); 
+  }, [currentLogoIndex]);
 
   return (
     <LazyMotion features={domAnimation}>
@@ -41,7 +46,7 @@ function Partners() {
               style={{
                 display: "flex",
                 animation: `scrollRight 40s linear infinite`,
-                width: "100%", 
+                width: "100%",
                 gap: 60,
               }}
               ref={containerRef}
@@ -55,15 +60,14 @@ function Partners() {
                 />
               ))}
             </div>
-            
           </div>
           <div className="flex justify-center">
-        <a href="/clientes">
-          <button className="font-barlow my-10 font-semibold text-lg py-3 px-6 rounded-3xl bg-purple text-white hover:bg-purple-dark transition duration-300 ease-in-out">
-            CONHEÇA NOSSOS CLIENTES
-          </button>
-        </a>
-      </div>
+            <a href="/clientes">
+              <button className="font-barlow my-10 font-semibold text-lg py-3 px-6 rounded-3xl bg-slate-900 text-white hover:bg-purple-dark transition duration-300 ease-in-out">
+              Veja quem faz parte da nossa história
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       <style>
@@ -83,5 +87,3 @@ function Partners() {
 }
 
 export default Partners;
-
-

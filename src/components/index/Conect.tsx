@@ -17,20 +17,20 @@ function Conect() {
           Conecte-se
         </h3>
         <div className="flex justify-between items-center gap-8 sm:gap-10">
-          <a
-            href="#"
+          <a target="_blank"
+            href="https://www.instagram.com/bmommcomunicacao/"
             className="icon-link text-purple hover:scale-110 hover:cursor-pointer"
           >
             <AiFillInstagram size={size} />
           </a>
-          <a
-            href="#"
+          <a target="_blank"
+            href="https://www.facebook.com/bmommcomunicacao/"
             className="icon-link text-purple hover:scale-110 hover:cursor-pointer"
           >
             <FaFacebook size={size} />
           </a>
-          <a
-            href="#"
+          <a target="_blank"
+            href="https://www.linkedin.com/company/bmomm-comunica%C3%A7%C3%A3o/"
             className="icon-link text-purple hover:scale-110 hover:cursor-pointer"
           >
             <AiFillLinkedin size={size} />

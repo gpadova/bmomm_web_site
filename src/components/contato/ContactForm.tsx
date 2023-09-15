@@ -5,8 +5,8 @@ import { AiFillLinkedin, AiOutlineWhatsApp, AiFillInstagram} from "react-icons/a
 
 function ContactForm() {
   return (
-    <div className="w-full flex justify-center">
-      <div className="w-5/6 sm:flex mb-20">
+    <div className="w-full flex flex-col items-center justify-center">
+      <div className="w-5/6 sm:flex mb-5">
         <div className="sm:w-1/2 bg-heavyBlue flex flex-col items-stretch justify-center rounded-md text-white p-10 font-barlow">
           <h3 className="text-2xl mb-10">Informações de contato</h3>
           <div className="flex gap-10">
@@ -22,10 +22,18 @@ function ContactForm() {
             <p className=" text-lg">Florianópolis - Santa Catarina | Brasil</p>
           </div>
           <div className="flex text-4xl mt-7 gap-4">
-            <AiOutlineWhatsApp />
-            <AiFillInstagram color="#F6AF03"/>
-            <FaFacebook />
-            <AiFillLinkedin color="#F6AF03"/>
+          <a target="_blank" href="">
+                <AiOutlineWhatsApp color="#F6AF05"/>
+                </a>
+              <a target="_blank" href="https://www.instagram.com/bmommcomunicacao/">
+                <AiFillInstagram />
+                </a>
+              <a target="_blank" href="https://www.facebook.com/bmommcomunicacao/">
+                <FaFacebook color="#F6AF05"/>
+                </a>
+              <a target="_blank" href="https://www.linkedin.com/company/bmomm-comunica%C3%A7%C3%A3o/">
+                <AiFillLinkedin />
+                </a>
           </div>
         </div>
         <div className="sm:w-1/2 flex flex-col items-center justify-center">
@@ -71,6 +79,13 @@ function ContactForm() {
           </form>
         </div>
       </div>
+        <div className="flex justify-center">
+            <a href="https://forms.gle/sBvnYZzZT2Umcy687" target="_blank">
+              <button className="font-barlow my-20 font-semibold text-lg py-3 px-6 rounded-3xl bg-heavyBlue text-white hover:bg-purple-dark transition duration-300 ease-in-out">
+                FAÇA PARTE DO NOSSO MAILING
+              </button>
+            </a>
+          </div>
     </div>
   );
 }
