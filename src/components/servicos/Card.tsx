@@ -20,7 +20,7 @@ function Card(props: CardProps) {
         ))}
       </div>
       <div className="flex flex-col justify-center items-center gap-1 ml-5 pr-10">
-        <a href={props.anchor}>
+        <a href="/service" >
           <button className="w-36 h-8 rounded-lg mt-4 bg-sky-600 text-white">
             Saber Mais
           </button>

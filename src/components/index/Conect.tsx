@@ -2,8 +2,7 @@ import { useMediaQuery } from "usehooks-ts";
 import { FaFacebook } from "react-icons/fa6";
 import {
   AiFillLinkedin,
-  AiFillInstagram,
-  AiOutlineWhatsApp,
+  AiFillInstagram
 } from "react-icons/ai";
 
 function Conect() {

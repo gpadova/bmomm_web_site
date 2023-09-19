@@ -38,7 +38,7 @@ function AbilityCard({ title, text, icon, anchor }: AbilityCardProps) {
         ))}
       </div>
       <div className="flex flex-col items-center justify-center">
-        <a href={anchor}>
+        <a href="/service">
           <button className="border border-solid text-xl rounded-xl py-2 px-4 bg-purple text-white hover:scale-110 hover:bg-purple-dark transition duration-300 ease-in-out">
             Saber Mais
           </button>
