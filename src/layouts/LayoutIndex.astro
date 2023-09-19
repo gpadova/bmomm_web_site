@@ -1,0 +1,53 @@
+---
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+import { ViewTransitions } from 'astro:transitions';
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta property="og:image" content="/logosBMomm/logo-Bea-aplicacoes-01.png" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/logosBMomm/logo-Bea-aplicacoes-curvas-01.png"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+    <ViewTransitions />
+  </head>
+  <body>
+    <main transition:animate="slide" />
+      <slot />
+    </main>
+  </body>
+  <Footer client:only />
+</html>
+<style is:global>
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+</style>
