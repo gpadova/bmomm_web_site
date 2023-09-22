@@ -1,76 +1,84 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import Carousel from "../components/sobre/Carousel.astro";
 ---
-<Layout title='Sobre | BMomm Comunicação' description='BMomm Comunicação'>
-    <div class="w-full flex justify-center items-center flex-col ">
-        <div class="w-5/6 bg-white px-5 my-14 text-base font-barlow leading-6 tracking-wide text-justify">
-          <h3 class="text-3xl mb-10 font-extrabold">
-            QUEM SOMOS
-          </h3>
-          <p>
-            A BMomm Comunicação se reinventou em 2022 para trazer as melhores
-            soluções de acordo com as necessidades de cada cliente.
-          </p>
-          <br />
-          <p>
-            Trabalhamos com foco na personalização dos conteúdos, trazendo
-            personalidade e estratégia para que cada marca tenha visibilidade,
-            conquistando espaço na imprensa, além da autoridade nas mídias
-            digitais.
-          </p>
-          <br />
-          <p>
-            A partir de um planejamento, são pensadas as ações para fortalecer a
-            reputação da empresa, com conteúdos próprios e relevantes,
-            consolidando a marca com o público-alvo nas redes sociais e na
-            imprensa por meio da mídia espontânea.
-          </p>
-          <br />
-          <p>
-            Sem fórmulas mágicas ou promessas inatingíveis. O nosso objetivo é ter
-            cada vez mais conexão com cada cliente, trazendo a essência em cada
-            material criado.
-          </p>
-        </div>
-        <div class="w-5/6 border-solid border-y-[0.3px] px-5 py-10 text-base font-barlow leading-6 tracking-wide text-justify">
-          <h3 class="text-3xl font-barlow mb-10 font-extrabold">
-            NOSSA EQUIPE
-          </h3>
-          <p>
-            Compromisso, experiência, inquietude e criatividade, a soma de tudo
-            isso é a nossa fórmula do sucesso. Profissionais de jornalismo,
-            publicidade, marketing e design gráfico formam a equipe que tem um
-            olhar individualizado para cada cliente, garantindo resultados
-            assertivos na comunicação.
-          </p>
-          <br />
-          <p>
-            Estamos conectados e gerando resultados juntos, cada um do seu
-            escritório. O time da BMomm Comunicação te atende de forma
-            personalizada, independente de onde estiver.
-          </p>
-        </div>
-        <div class="w-5/6 flex sm:flex-none items-center justify-center mb-16  px-5 py-10 text-base font-barlow leading-4 tracking-wide">
-          <div class="sm:w-10/12 leading-7 text-justify">
-            <h3 class="text-3xl font-barlow mb-7 font-extrabold">BEATRIZ MOMM</h3>
-            <h5 class="text-xl pb-10 font-barlow font-semibold">Diretora de Comunicação</h5>
-            <p>
-              Compromisso, experiência, inquietude e criatividade, a soma de tudo
-              isso é a nossa fórmula do sucesso. Profissionais de jornalismo,
-              publicidade, marketing e design gráfico formam a equipe que tem um
-              olhar individualizado para cada cliente, garantindo resultados
-              assertivos na comunicação.
-              </p>
-              <br />
-              <p>
-               Estamos conectados e gerando resultados
-              juntos, cada um do seu escritório. O time da BMomm Comunicação te
-              atende de forma personalizada, independente de onde estiver.
-            </p>
+
+<Layout title="Sobre | BMomm Comunicação" description="BMomm Comunicação">
+  <div class="w-full flex justify-center items-center flex-col">
+    <div
+      class="w-5/6 bg-white px-5 my-14 text-base font-barlow leading-6 tracking-wide text-justify"
+    >
+      <h3 class="text-3xl mb-10 font-extrabold">QUEM SOMOS</h3>
+      <p>
+        A BMomm Comunicação se reinventou em 2022 para trazer as melhores
+        soluções de acordo com as necessidades de cada cliente.
+      </p>
+      <br />
+      <p>
+        Trabalhamos com foco na personalização dos conteúdos, trazendo
+        personalidade e estratégia para que cada marca tenha visibilidade,
+        conquistando espaço na imprensa, além da autoridade nas mídias digitais.
+      </p>
+      <br />
+      <p>
+        A partir de um planejamento, são pensadas as ações para fortalecer a
+        reputação da empresa, com conteúdos próprios e relevantes, consolidando
+        a marca com o público-alvo nas redes sociais e na imprensa por meio da
+        mídia espontânea.
+      </p>
+      <br />
+      <p>
+        Sem fórmulas mágicas ou promessas inatingíveis. O nosso objetivo é ter
+        cada vez mais conexão com cada cliente, trazendo a essência em cada
+        material criado.
+      </p>
+    </div>
+    <div
+      class="w-5/6 border-solid border-y-[0.3px] px-5 py-10 text-base font-barlow leading-6 tracking-wide text-justify"
+    >
+      <h3 class="text-3xl font-barlow mb-10 font-extrabold">NOSSA EQUIPE</h3>
+      <p>
+        Compromisso, experiência, inquietude e criatividade, a soma de tudo isso
+        é a nossa fórmula do sucesso. Profissionais de jornalismo, publicidade,
+        marketing e design gráfico formam a equipe que tem um olhar
+        individualizado para cada cliente, garantindo resultados assertivos na
+        comunicação.
+      </p>
+      <br />
+      <p>
+        Estamos conectados e gerando resultados juntos, cada um do seu
+        escritório. O time da BMomm Comunicação te atende de forma
+        personalizada, independente de onde estiver.
+      </p>
+    </div>
+    <div
+      class="w-full flex flex-col items-center justify-center mb-16 px-5 py-10 text-base font-barlow leading-4 tracking-wide"
+    >
+      <div class="sm:w-10/12 leading-7 text-justify">
+        <h3 class="text-3xl font-barlow mb-7 font-extrabold">BEATRIZ MOMM</h3>
+        <h5 class="text-xl pb-10 font-barlow font-semibold">
+          Diretora de Comunicação
+        </h5>
+        <p>
+          Compromisso, experiência, inquietude e criatividade, a soma de tudo
+          isso é a nossa fórmula do sucesso. Profissionais de jornalismo,
+          publicidade, marketing e design gráfico formam a equipe que tem um
+          olhar individualizado para cada cliente, garantindo resultados
+          assertivos na comunicação.
+        </p>
+        <br />
+        <p>
+          Estamos conectados e gerando resultados juntos, cada um do seu
+          escritório. O time da BMomm Comunicação te atende de forma
+          personalizada, independente de onde estiver.
+        </p>
+        <div
+          class="w-full flex flex-col items-center justify-center  text-base font-barlow leading-4 pt-10 tracking-wide"
+        >
+          <Carousel />
           </div>
-            <div class="flex justify-center pl-20 pt-24">
-              <img class="object-contain" src="/photos/Ellipse 6.png" alt="" />
-            </div>
-          </div>
+        </div>
       </div>
+    </div>
+  </div>
 </Layout>
