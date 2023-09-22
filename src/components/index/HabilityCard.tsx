@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 interface AbilityCardProps {
   title: string;
   text: string[];
-  icon: React.ReactNode;
+  icon: string;
   anchor: string;
 }
 
@@ -16,18 +16,12 @@ function AbilityCard({ title, text, icon, anchor }: AbilityCardProps) {
       className="bg-white shadow-lg  border rounded-xl shadow-3xl w-[220px] flex flex-col gap-6 justify-between items-center py-8 px-4 mb-10"
     >
       <div className="w-full flex flex-col items-center justify-around ">
-        <div className="bg-white rounded-full p-5  text-black -translate-y-24">
-          {icon}
+        <div className="bg-white rounded-full p-2  text-black -translate-y-24">
+          <img className="w-28" src={icon} alt={`icone de ${title}`} />
         </div>
-        {title === "MARKETING DIGITAL" ? (
-          <h3 className="text-xl leading-10 -mt-16  text-center font-semibold px-10  border-purple pt-4 border-t-[2px]">
-            {title}
-          </h3>
-        ) : (
           <h3 className="text-xl leading-10 -mt-16 text-center font-semibold  border-purple pt-4 border-t-[2px]">
             {title}
           </h3>
-        )}
         {text.map((element, index) => (
           <p
             key={index}

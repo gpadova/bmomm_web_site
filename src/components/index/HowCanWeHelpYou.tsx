@@ -11,7 +11,7 @@ function HowCanWeHelpYou() {
   interface IAboutUsConsts {
     title: string;
     text: string[];
-    icon: ReactElement<IconProps>;
+    icon: string;
     anchor: string;
   }
   const aboutUsConsts: IAboutUsConsts[] = [
@@ -20,7 +20,7 @@ function HowCanWeHelpYou() {
       text: [
         "Conquistando espaço, credibilidade e visibilidade na imprensa",
       ],
-      icon: <FaMicrophone size={100} />,
+      icon: "/icons/imprensa.png",
       anchor: "/servico/assesoria"
     },
     {
@@ -28,7 +28,7 @@ function HowCanWeHelpYou() {
       text: [
         "Conectando a sua marca com seu público-alvo no mundo digital",
       ],
-      icon: <FaPeopleGroup size={100} />,
+      icon: "/icons/digital.png",
       anchor: "/servico/digital"
     },
     {
@@ -36,7 +36,7 @@ function HowCanWeHelpYou() {
       text: [
         "Conectando marcas e pessoas reais com propósito",
       ],
-      icon: <AiOutlineTrophy size={100} />,
+      icon: "/icons/relacionamento.png",
       anchor: "/servico/relacionamento"
     },
     {
@@ -44,7 +44,7 @@ function HowCanWeHelpYou() {
       text: [
         "Criando conteúdos exclusivos e ricos em informação.",
       ],
-      icon: <AiFillVideoCamera size={100} />,
+      icon: "/icons/conteudo.png",
       anchor: "/servico/conteudo"
     },
   ];

@@ -1,7 +1,11 @@
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaFacebook, FaLocationPin } from "react-icons/fa6";
-import { AiFillLinkedin, AiOutlineWhatsApp, AiFillInstagram} from "react-icons/ai";
+import {
+  AiFillLinkedin,
+  AiOutlineWhatsApp,
+  AiFillInstagram,
+} from "react-icons/ai";
 
 function ContactForm() {
   return (
@@ -22,18 +26,27 @@ function ContactForm() {
             <p className=" text-lg">Florianópolis - Santa Catarina | Brasil</p>
           </div>
           <div className="flex text-4xl mt-7 gap-4">
-          <a target="_blank" href="">
-                <AiOutlineWhatsApp color="#F6AF05"/>
-                </a>
-              <a target="_blank" href="https://www.instagram.com/bmommcomunicacao/">
-                <AiFillInstagram />
-                </a>
-              <a target="_blank" href="https://www.facebook.com/bmommcomunicacao/">
-                <FaFacebook color="#F6AF05"/>
-                </a>
-              <a target="_blank" href="https://www.linkedin.com/company/bmomm-comunica%C3%A7%C3%A3o/">
-                <AiFillLinkedin />
-                </a>
+            <a target="_blank" href="">
+              <AiOutlineWhatsApp color="#F6AF05" />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/bmommcomunicacao/"
+            >
+              <AiFillInstagram />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/bmommcomunicacao/"
+            >
+              <FaFacebook color="#F6AF05" />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/bmomm-comunica%C3%A7%C3%A3o/"
+            >
+              <AiFillLinkedin />
+            </a>
           </div>
         </div>
         <div className="sm:w-1/2 flex flex-col items-center justify-center">
@@ -68,24 +81,25 @@ function ContactForm() {
             <div className="flex gap-2 justify-center mb-8 w-[300px] ">
               <input type="checkbox" className="border-b-[1px] text-zinc-700" />
               <label htmlFor="" className="mb-1 font-barlow">
-              Estou de acordo com a  {" "}
-              <span className="underline">
-
-               Política de Privacidade.
-              </span>
+                Estou de acordo com a{" "}
+                <a href="/uso">
+                  <span className="underline">Política de Privacidade.</span>
+                </a>
               </label>
             </div>
-            <button className="bg-slate-800 font-barlow text-white px-6 py-3 rounded-md">Enviar Mensagem</button>
+            <button className="bg-slate-800 font-barlow text-white px-6 py-3 rounded-md">
+              Enviar Mensagem
+            </button>
           </form>
         </div>
       </div>
-        <div className="flex justify-center">
-            <a href="https://forms.gle/sBvnYZzZT2Umcy687" target="_blank">
-              <button className="font-barlow my-20 font-semibold text-lg py-3 px-6 rounded-3xl bg-heavyBlue text-white hover:bg-purple-dark transition duration-300 ease-in-out">
-                FAÇA PARTE DO NOSSO MAILING
-              </button>
-            </a>
-          </div>
+      <div className="flex justify-center">
+        <a href="https://forms.gle/sBvnYZzZT2Umcy687" target="_blank">
+          <button className="font-barlow my-20 font-semibold text-lg py-3 px-6 rounded-3xl bg-heavyBlue text-white hover:bg-purple-dark transition duration-300 ease-in-out">
+            FAÇA PARTE DO NOSSO MAILING
+          </button>
+        </a>
+      </div>
     </div>
   );
 }

@@ -1,17 +1,18 @@
 ---
-import LayoutIndex from '../layouts/LayoutIndex.astro';
-import HowCanWeHelpYou from "../components/index/HowCanWeHelpYou"
-import AboutUs from "../components/index/AboutUs"
-import Conect from "../components/index/Conect"
-import Partners from "../components/index/Partners"
-import NavIndex from "../components/NavIndex"
-
+import Layout from "../layouts/Layout.astro";
+import HowCanWeHelpYou from "../components/index/HowCanWeHelpYou";
+import AboutUs from "../components/index/AboutUs";
+import Conect from "../components/index/Conect";
+import Partners from "../components/index/Partners";
+import NavIndex from "../components/NavIndex";
 ---
 
-<LayoutIndex title="Home | BMomm Comunicação" description="Home | BMomm Comunicação">
-	<NavIndex client:only/>
-	<HowCanWeHelpYou client:only/>
-	<AboutUs client:only/>
-	<Partners client:only/>
-	<Conect client:only/>
-</LayoutIndex>
+<Layout title="Home | BMomm Comunicação" description="Home | BMomm Comunicação">
+  <div class="w-full bg-lightBlue flex justify-center">
+    <img class="w-5/6" src="/BMomm_banner.png" alt="" />
+  </div>
+  <HowCanWeHelpYou client:only />
+  <AboutUs client:only />
+  <Partners client:only />
+  <Conect client:only />
+</Layout>

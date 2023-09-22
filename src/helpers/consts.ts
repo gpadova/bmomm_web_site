@@ -18,7 +18,7 @@ export const navItens: INavItens[] = [
     },
     {
         name: "SERVIÇOS",
-        path: "/servicos"
+        path: "/service"
     },
 
     {
